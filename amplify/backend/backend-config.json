@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "cognito120fd797": {
+      "service": "Cognito",
+      "serviceType": "managed",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
+    }
+  },
+  "analytics": {
+    "myapp": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
